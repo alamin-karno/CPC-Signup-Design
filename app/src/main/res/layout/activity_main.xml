@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter you name"
+        android:inputType="textPersonName"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColorHint="#FFF"/>
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter you email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColorHint="#FFF"/>
+
+    <EditText
+        android:id="@+id/phoneET"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter you phone no"
+        android:inputType="phone"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColorHint="#FFF"/>
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter you password"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColorHint="#FFF"/>
+
+    <Button
+        android:id="@+id/signupBTN"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup" />
+
+
+</LinearLayout>
